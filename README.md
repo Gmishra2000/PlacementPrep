@@ -5,6 +5,9 @@ This is a personal site where you can keep track of your core subjects preparati
 
 https://gmishra2000.github.io/PlacementPrep/index.html
 
+<h3> Frontend Built using  only HTML , CSS, Javascript<h3>
+  <h3> Used Local Storage web API to store the data in browser</h3>
+
 <h1>HOME PAGE</h1>
 
 ![](images/Home.png)
