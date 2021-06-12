@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ToDo App</title>
+    <link rel="stylesheet" href="./CSS/todostyle.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+</head>
+
+<body>
+    <div class="main-container">
+        <a class="home-page" href="index.html">Home Page</a>
+        <div class="box-container">
+            <h2 id="subject-name"> Operating System</h3>
+                <form id="itemform">
+                    <div class="input-field">
+                        <input class="input-box" id="itemInput" type="text" placeholder="Add your Learning resources">
+                        <button>ADD</button>
+                    </div>
+                </form>
+                <div class="task-container">
+                    <div id="task-list">
+                        <ul>
+                            <li class="align active"  data-type="all"><a href="#">All Tasks</a></li>
+                            <li class="align" data-type="todo"><a href="#">To Do</a></li>
+                            <li class="align" data-type="done"><a href="#">Completed</a></li>
+                        </ul>
+                    </div>
+
+                    <ul class="list-group" id="itemsList">
+                        
+                    </ul>
+                    <input type="hidden" id="objIndex" value="">
+                    <input type="hidden" id="tabValue" value="all">
+                </div>
+
+
+
+
+
+        </div>
+    </div>
+    <script src="./Scripts/scripts.js"></script>
+</body>
+
+</html>
