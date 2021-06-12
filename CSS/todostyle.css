@@ -63,14 +63,9 @@ body {
     display: flex;
 
 
-    /* width: 100%; */
-    /* margin: 0 auto; */
-    /* height: 3rem; */
+
     justify-content: space-evenly;
-    /* border: 2px solid red; */
-    /* background-color: #9c9c9c;
-    border-radius: 20px;
-    border: none; */
+
 
 }
 
@@ -133,18 +128,11 @@ ul {
 
 a {
     text-decoration: none;
-
+    color: #0000ee;
 }
 
 #task-list {
-    /* border: 2px solid;
-    margin: 0 auto;
-    background: #fdfdfd; */
-    /* height: 2rem; */
-    /* width: 70%; */
-    /* display: flex; */
-    /* margin-top: 1rem; */
-    /* border: none; */
+
 
     background-color: #fdfdfd;
     margin: 0 auto;
@@ -154,7 +142,7 @@ a {
 
 }
 
-/*  */
+
 
 #task-list ul {
     display: flex;
@@ -173,6 +161,10 @@ a {
     align-items: center;
     justify-content: space-evenly;
     width: 100%;
+}
+
+.align a{
+    color: black;
 }
 
 .active,

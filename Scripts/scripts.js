@@ -1,12 +1,12 @@
-var btnContainer = document.getElementById("task-list")
+let btnContainer = document.getElementById("task-list")
 
 // Get all buttons with class="btn" inside the container
-var btns = btnContainer.getElementsByClassName("align");
+let btns = btnContainer.getElementsByClassName("align");
 
 // Loop through the buttons and add the active class to the current/clicked button
-for (var i = 0; i < btns.length; i++) {
+for (let i = 0; i < btns.length; i++) {
     btns[i].addEventListener("click", function () {
-        var current = document.getElementsByClassName("active");
+        let current = document.getElementsByClassName("active");
         current[0].className = current[0].className.replace(" active", "");
         this.className += " active";
     });
@@ -38,7 +38,6 @@ const getItemsFilter = function (type) {
 }
 
 // delete item
-
 const removeItem = function (item) {
     const removeIndex = todoItems.indexOf(item);
     todoItems.splice(removeIndex, 1);
@@ -117,8 +116,9 @@ const getList = function (todoItems) {
                             
                             
                             <a href="#" data-done class="icons"><i class="bi ${iconClass}"></i></a>
+                             <a href="#" data-edit class="icons"><i class="bi bi-pencil-square blue"></i></a>
                             <a href="#" data-delete class="icons"><i class="bi bi-x-circle red"></i></a>
-                            <a href="#" data-edit class="icons"><i class="bi bi-pencil-square blue"></i></a>
+                           
                            
 
 
