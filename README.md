@@ -1,5 +1,12 @@
 # PlacementPrep
 This is a personal site where you can keep track of your core subjects preparation  for placements in a ToDo List manner. 
+<h1>HOME PAGE</h1>
+
+![](images/Home.png)
+
+![](images/alltask.png)
+
+</br>
 </br>-------FLOW OF WORKING--------</br>
         --->Visit Home Page</br>
         --->Go through each section of web page to Understand work</br>
@@ -18,9 +25,7 @@ https://gmishra2000.github.io/PlacementPrep/index.html
 <h4> Currently Web Page is not Responsive. Work In progress......... </h4>
   <h5>For UI reference is taken from this dribble design</h5>
   https://dribbble.com/shots/15788684-Brilliant-Skills/attachments/7597796?mode=media
-<h1>HOME PAGE</h1>
 
-![](images/Home.png)
 
 <h1>ABOUT PAGE</h1>
 
@@ -28,7 +33,7 @@ https://gmishra2000.github.io/PlacementPrep/index.html
 
 <h2> Click on <strong>Start learning</strong> of  Core subjects and then move to TO DO page to Add your task and make use of tracking your progress</h2>
 
-![](images/alltask.png)
+
 
 ![](images/todoTask.png)
 
